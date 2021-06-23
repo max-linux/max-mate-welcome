@@ -1,3 +1,9 @@
+max-mate-welcome (20210507max3) max; urgency=medium
+
+  * Create symlink i18n/es_ES/message.html ../../message.html
+
+ -- CAU de MAX <cau_max@educa.madrid.org>  Wed, 23 Jun 2021 20:59:22 +0200
+
 max-mate-welcome (20210507max2) max; urgency=medium
 
   * Build in MAX 11.0
