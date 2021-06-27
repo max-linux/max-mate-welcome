@@ -1,3 +1,9 @@
+max-mate-welcome (20210507max4) max; urgency=medium
+
+  * Update EducaMadrid logos
+
+ -- CAU de MAX <cau_max@educa.madrid.org>  Sun, 27 Jun 2021 13:31:38 +0200
+
 max-mate-welcome (20210507max3) max; urgency=medium
 
   * Create symlink i18n/es_ES/message.html ../../message.html
