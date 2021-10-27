@@ -1,3 +1,9 @@
+max-mate-welcome (20210507max5) max; urgency=medium
+
+  * delete obsolete apps
+
+ -- CAU de MAX <cau_max@educa.madrid.org>  Wed, 27 Oct 2021 11:45:47 +0200
+
 max-mate-welcome (20210507max4) max; urgency=medium
 
   * Update EducaMadrid logos
