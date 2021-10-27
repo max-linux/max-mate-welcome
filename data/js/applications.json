@@ -226,6 +226,31 @@
             },
             "working": true
         },
+        "subsurface": {
+            "name": "Subsurface",
+            "img": "subsurface",
+            "main-package": "subsurface",
+            "launch-command": "subsurface",
+            "install-packages": "subsurface",
+            "remove-packages": "subsurface",
+            "description": [
+                "Permite registrar y planificar incursiones submarinas"
+            ],
+            "alternate-to": null,
+            "subcategory": "Dive Log",
+            "open-source": true,
+            "url-info": "https://subsurface-divelog.org/",
+            "url-android": "https://play.google.com/store/apps/details?id=org.subsurfacedivelog.mobile",
+            "url-ios": "https://itunes.apple.com/gb/app/subsurface/id907870605?mt=8",
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
         "variety": {
             "name": "Variety",
             "img": "variety",
@@ -250,10 +275,62 @@
                 }
             },
             "working": true
+        },
+        "veracrypt": {
+            "name": "VeraCrypt",
+            "img": "veracrypt",
+            "main-package": "veracrypt",
+            "launch-command": "veracrypt",
+            "install-packages": "veracrypt",
+            "remove-packages": "veracrypt",
+            "description": [
+                "Gestor de volúmenes cifrados"
+            ],
+            "alternate-to": null,
+            "subcategory": "Encryption",
+            "open-source": true,
+            "url-info": "https://veracrypt.codeplex.com/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
         }
     },
 
     "Education": {
+        "moodle": {
+            "name": "Moodle",
+            "img": "moodle",
+            "main-package": "maxmoodle",
+            "launch-command": "max-moodle-launcher",
+            "install-packages": "maxmoodle,maxmoodle-pressed",
+            "remove-packages": "maxmoodle,maxmoodle-pressed",
+            "description": [
+                "Instalación de Moodle 3.5 para disponer de Aula Virtual",
+                "e incluso mantener una replica de la de EducaMadrid",
+                "en la red local del centro."
+            ],
+            "alternate-to": null,
+            "subcategory": "Elearning",
+            "open-source": true,
+            "url-info": "https://moodle.org/?lang=es",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
         "arasuite": {
             "name": "Arasuite",
             "img": "arasuite",
@@ -334,6 +411,31 @@
             },
             "working": true
         },
+        "openteacher": {
+            "name": "Openteacher",
+            "img": "openteacher",
+            "main-package": "openteacher",
+            "launch-command": "openteacher",
+            "install-packages": "openteacher",
+            "remove-packages": "openteacher",
+            "description": [
+                "Aplicación para aprender vocabulario de otro idioma."
+            ],
+            "alternate-to": null,
+            "subcategory": "Game",
+            "open-source": true,
+            "url-info": "http://openteacher.org/en/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
         "astro-education": {
             "name": "Aplicaciones educativas de astronomía",
             "img": "meta-education",
@@ -375,6 +477,110 @@
             "subcategory": "Meta",
             "open-source": true,
             "url-info": "https://packages.ubuntu.com/focal/junior-education",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "ubuntu-edu-preschool": {
+            "name": "Ubuntu EDU para preescolar",
+            "img": "meta-education",
+            "main-package": "ubuntu-edu-preschool",
+            "launch-command": "",
+            "install-packages": "ubuntu-edu-preschool",
+            "remove-packages": "ubuntu-edu-preschool",
+            "description": [
+                "Colección de programas educativos seleccionados",
+                "para niveles de Infantil."
+            ],
+            "alternate-to": null,
+            "subcategory": "Meta",
+            "open-source": true,
+            "url-info": "https://packages.ubuntu.com/focal/ubuntu-edu-preschool",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "ubuntu-edu-primary": {
+            "name": "Ubuntu EDU para primaria",
+            "img": "meta-education",
+            "main-package": "ubuntu-edu-primary",
+            "launch-command": "",
+            "install-packages": "ubuntu-edu-primary",
+            "remove-packages": "ubuntu-edu-primary",
+            "description": [
+                "Colección de programas educativos seleccionados",
+                "para niveles de Primaria."
+            ],
+            "alternate-to": null,
+            "subcategory": "Meta",
+            "open-source": true,
+            "url-info": "https://packages.ubuntu.com/focal/ubuntu-edu-primary",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "ubuntu-edu-secundary": {
+            "name": "Ubuntu EDU para secundaria",
+            "img": "meta-education",
+            "main-package": "ubuntu-edu-secundary",
+            "launch-command": "",
+            "install-packages": "ubuntu-edu-secundary",
+            "remove-packages": "ubuntu-edu-secundary",
+            "description": [
+                "Colección de programas educativos seleccionados",
+                "para niveles de Secundaria."
+            ],
+            "alternate-to": null,
+            "subcategory": "Meta",
+            "open-source": true,
+            "url-info": "https://packages.ubuntu.com/focal/ubuntu-edu-secundary",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "ubuntu-edu-terciary": {
+            "name": "Ubuntu EDU para educación post-obligatoria",
+            "img": "meta-education",
+            "main-package": "ubuntu-edu-terciary",
+            "launch-command": "",
+            "install-packages": "ubuntu-edu-terciary",
+            "remove-packages": "ubuntu-edu-terciary",
+            "description": [
+                "Colección de programas educativos seleccionados",
+                "para niveles de educación post-obligatoria."
+            ],
+            "alternate-to": null,
+            "subcategory": "Meta",
+            "open-source": true,
+            "url-info": "https://packages.ubuntu.com/focal/ubuntu-edu-terciary",
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
@@ -1517,6 +1723,31 @@
             },
             "working": true
         },
+        "gajim": {
+            "name": "Gajim",
+            "img": "gajim",
+            "main-package": "gajim",
+            "launch-command": "gajim",
+            "install-packages": "gajim,python-appindicator",
+            "remove-packages": "gajim",
+            "description": [
+                "Cliente de chat jabber"
+            ],
+            "alternate-to": null,
+            "subcategory": "Mensajería",
+            "open-source": true,
+            "url-info": "https://gajim.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
         "gobby": {
             "name": "Gobby",
             "img": "gobby",
@@ -1617,6 +1848,32 @@
             },
             "working": true
         },
+        "pidgin": {
+            "name": "Pidgin",
+            "img": "pidgin",
+            "main-package": "pidgin",
+            "launch-command": "pidgin",
+            "install-packages": "pidgin,pidgin-libnotify,pidgin-otr",
+            "remove-packages": "pidgin,pidgin-libnotify,pidgin-otr",
+            "description": [
+                "Aplicación de chat compatible con AIM, MSN,",
+                "Yahoo, ICQ, IRC, Jabber"
+            ],
+            "alternate-to": null,
+            "subcategory": "Mensajería",
+            "open-source": true,
+            "url-info": "https://pidgin.im/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
         "remmina": {
             "name": "Remmina",
             "img": "remmina",
@@ -1639,6 +1896,31 @@
             "pre-install": {
                 "all": {
                     "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "skypeforlinux": {
+            "name": "Skype for Linux Preview",
+            "img": "skypeforlinux",
+            "main-package": "skypeforlinux",
+            "launch-command": "skypeforlinux",
+            "install-packages": "skypeforlinux",
+            "remove-packages": "skypeforlinux",
+            "description": [
+                "Aplicación de comunicaciones, llamadas voz. vídeo y chat"
+            ],
+            "alternate-to": null,
+            "subcategory": "Mensajería",
+            "open-source": false,
+            "url-info": "http://www.skype.com",
+            "url-android": "https://play.google.com/store/apps/details?id=com.skype.raider",
+            "url-ios": "https://itunes.apple.com/gb/app/skype-for-iphone/id304878510",
+            "arch": "amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
                 }
             },
             "working": true
@@ -1822,8 +2104,33 @@
                 }
             },
             "working": true
+        },
+        "zenmap": {
+            "name": "Zenmap",
+            "img": "zenmap",
+            "main-package": "zenmap",
+            "launch-command": "zenmap",
+            "install-packages": "zenmap",
+            "remove-packages": "zenmap",
+            "description": [
+                "Interfaz gráfico para Nmap, analizador de red,",
+                "equipos y puertos"
+            ],
+            "alternate-to": null,
+            "subcategory": "Analizador",
+            "open-source": true,
+            "url-info": "https://nmap.org/zenmap/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
         }
-
     },
 
     "Office": {
@@ -2180,6 +2487,32 @@
             },
             "working": true
         },
+
+        "mysql-workbench": {
+            "name": "MySQL Workbench",
+            "img": "mysql-workbench",
+            "main-package": "mysql-workbench",
+            "launch-command": "mysql-workbench",
+            "install-packages": "mysql-workbench",
+            "remove-packages": "mysql-workbench",
+            "description": [
+                "Modelado de bases de datos MySQL"
+            ],
+            "alternate-to": null,
+            "subcategory": "Database",
+            "open-source": true,
+            "url-info": "https://www.mysql.com/products/workbench/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
         "pgadmin3": {
             "name": "pgAdmin III",
             "img": "pgadmin3",
@@ -2230,7 +2563,32 @@
             },
             "working": true
         },
-        "atom": {
+        "gambas": {
+            "name": "Gambas",
+            "img": "gambas3",
+            "main-package": "gambas3",
+            "install-packages": "gambas3,gambas3-gb-form-print",
+            "remove-packages": "gambas3-dev,gambas3-examples,gambas3-gb-args,gambas3-gb-cairo,gambas3-gb-chart,gambas3-gb-clipper,gambas3-gb-complex,gambas3-gb-compress-bzlib2,gambas3-gb-compress-zlib,gambas3-gb-compress,gambas3-gb-crypt,gambas3-gb-data,gambas3-gb-db-form,gambas3-gb-db-mysql,gambas3-gb-db-odbc,gambas3-gb-db-postgresql,gambas3-gb-db-sqlite3,gambas3-gb-db,gambas3-gb-dbus-trayicon,gambas3-gb-dbus,gambas3-gb-desktop-x11,gambas3-gb-desktop,gambas3-gb-eval-highlight,gambas3-gb-form-dialog,gambas3-gb-form-editor,gambas3-gb-form-mdi,gambas3-gb-form-print,gambas3-gb-form-stock,gambas3-gb-form-terminal,gambas3-gb-form,gambas3-gb-gmp,gambas3-gb-gsl,gambas3-gb-gtk,gambas3-gb-gui,gambas3-gb-httpd,gambas3-gb-image-effect,gambas3-gb-image-imlib,gambas3-gb-image-io,gambas3-gb-image,gambas3-gb-inotify,gambas3-gb-jit,gambas3-gb-logging,gambas3-gb-map,gambas3-gb-markdown,gambas3-gb-media-form,gambas3-gb-media,gambas3-gb-memcached,gambas3-gb-mime,gambas3-gb-mysql,gambas3-gb-ncurses,gambas3-gb-net-curl,gambas3-gb-net-pop3,gambas3-gb-net-smtp,gambas3-gb-net,gambas3-gb-openal,gambas3-gb-opengl-glsl,gambas3-gb-opengl-glu,gambas3-gb-opengl-sge,gambas3-gb-opengl,gambas3-gb-openssl,gambas3-gb-pcre,gambas3-gb-pdf,gambas3-gb-qt5-ext,gambas3-gb-qt5-opengl,gambas3-gb-qt5-webkit,gambas3-gb-qt5,gambas3-gb-report2,gambas3-gb-scanner,gambas3-gb-sdl2-audio,gambas3-gb-sdl2,gambas3-gb-settings,gambas3-gb-signal,gambas3-gb-term-form,gambas3-gb-term,gambas3-gb-util-web,gambas3-gb-util,gambas3-gb-vb,gambas3-gb-web-feed,gambas3-gb-web-form,gambas3-gb-web,gambas3-gb-xml-html,gambas3-gb-xml-rpc,gambas3-gb-xml-xslt,gambas3-gb-xml,gambas3-ide,gambas3-runtime,gambas3-script,gambas3",
+            "launch-command": "gambas3",
+            "description": [
+                "Convierte entre distintas unidades"
+            ],
+            "alternate-to": null,
+            "subcategory": "Calculator",
+            "open-source": true,
+            "url-info": "http://gambas.sourceforge.net/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+	"atom": {
             "name": "Atom",
             "img": "atom",
             "main-package": "atom",
@@ -2244,6 +2602,31 @@
             "subcategory": "IDEs",
             "open-source": true,
             "url-info": "http://atom.io",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "brackets": {
+            "name": "Brackets",
+            "img": "brackets",
+            "main-package": "brackets",
+            "launch-command": "brackets",
+            "install-packages": "brackets",
+            "remove-packages": "brackets",
+            "description": [
+                "Moderno editor para diseño web."
+            ],
+            "alternate-to": null,
+            "subcategory": "IDEs",
+            "open-source": true,
+            "url-info": "http://brackets.io",
             "url-android": null,
             "url-ios": null,
             "arch": "amd64",
@@ -2280,6 +2663,56 @@
             },
             "working": true
         },
+        "pilasengine": {
+            "name": "Pilas engine",
+            "img": "pilasengine",
+            "main-package": "python-pilas",
+            "launch-command": "python-pilas",
+            "install-packages": "python-pilas",
+            "remove-packages": "python-pilas",
+            "description": [
+                "Crea tus propios videojuegos de manera didáctica y divertida."
+            ],
+            "alternate-to": null,
+            "subcategory": "IDEs",
+            "open-source": true,
+            "url-info": "http://pilas-engine.com.ar",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "pilasbloques": {
+            "name": "Pilas engine",
+            "img": "pilas-engine-bloques",
+            "main-package": "pilas-engine-bloques",
+            "launch-command": "pilas-engine-bloques",
+            "install-packages": "pilas-engine-bloques",
+            "remove-packages": "pilas-engine-bloques",
+            "description": [
+                "Aprende a programar realizando pequeños desafios."
+            ],
+            "alternate-to": null,
+            "subcategory": "IDEs",
+            "open-source": true,
+            "url-info": "http://pilas-engine.com.ar",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
         "sonicpi": {
             "name": "Sonic Pi",
             "img": "sonic-pi",
@@ -2294,6 +2727,58 @@
             "subcategory": "IDEs",
             "open-source": true,
             "url-info": "https://sonic-pi.net/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "snap4arduino": {
+            "name": "Snap4Arduino",
+            "img": "snap4arduino",
+            "main-package": "snap4arduino",
+            "launch-command": "snap4arduino",
+            "install-packages": "snap4arduino",
+            "remove-packages": "snap4arduino",
+            "description": [
+                "Programa en Arduino por medio de bloques."
+            ],
+            "alternate-to": null,
+            "subcategory": "IDEs",
+            "open-source": true,
+            "url-info": "http://snap4arduino.rocks/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "icestudio": {
+            "name": "Icestudio",
+            "img": "icestudio",
+            "main-package": "icestudio",
+            "launch-command": "icestudio",
+            "install-packages": "icestudio",
+            "remove-packages": "icestudio",
+            "description": [
+                "Increible editor de prgramación hardware. Diseño de",
+                "sistemas digitales en FPGA con mínima dificultad.",
+                "Forma de trabajo al estilo Scratch."
+            ],
+            "alternate-to": null,
+            "subcategory": "IDEs",
+            "open-source": true,
+            "url-info": "https://github.com/FPGAwars/icestudio",
             "url-android": null,
             "url-ios": null,
             "arch": "amd64",
