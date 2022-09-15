@@ -2,7 +2,7 @@
 current_page = document.location.href.match(/[^\/]+$/)[0];
 
 // Show an error dialog when JavaScript errors occur.
-$(window).on("error", function(evt) {
+/*$(window).on("error", function(evt) {
     // Gets JavaScript Event
     var e = evt.originalEvent;
     friendly_txt = "Oops! Welcome encountered an internal error.\n\nPlease tell the MAX MATE Developers so this can fixed right away.";
@@ -12,7 +12,7 @@ $(window).on("error", function(evt) {
         alert(friendly_txt + "\n\nError:\n\t" + e.type + "\nElement:\n\t" + (e.srcElement || e.target));
     }
 });
-
+*/
 // Pass commands to Python
 function cmd(instruction) {
     document.title = instruction;

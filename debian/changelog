@@ -1,3 +1,33 @@
+max-mate-welcome (20210507max11) max; urgency=medium
+
+  * Build in MAX 12.0
+
+ -- CAU de MAX <cau_max@educa.madrid.org>  Thu, 15 Sep 2022 14:11:45 +0200
+
+max-mate-welcome (20210507max10) max; urgency=medium
+
+  * max store apps cleaned
+
+ -- CAU de MAX <cau_max@educa.madrid.org>  Thu, 15 Sep 2022 13:37:20 +0200
+
+max-mate-welcome (20210507max9) max; urgency=medium
+
+  * version to 11.5 changed
+
+ -- CAU de MAX <cau_max@educa.madrid.org>  Fri, 25 Feb 2022 14:39:27 +0100
+
+max-mate-welcome (20210507max8) max; urgency=medium
+
+  * version to 11.5 changed
+
+ -- CAU de MAX <cau_max@educa.madrid.org>  Fri, 25 Feb 2022 14:39:21 +0100
+
+max-mate-welcome (20210507max7) max; urgency=medium
+
+  * window error message after install foo app removed
+
+ -- CAU de MAX <cau_max@educa.madrid.org>  Wed, 02 Feb 2022 11:57:01 +0100
+
 max-mate-welcome (20210507max6) max; urgency=medium
 
   * add gambas3 to store
