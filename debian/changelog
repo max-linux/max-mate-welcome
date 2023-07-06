@@ -1,3 +1,33 @@
+max-mate-welcome (20210507max16) max; urgency=medium
+
+  * 11.5.1 => 11.5.2 upgraded   
+
+ -- CAU de MAX <cau_max@educa.madrid.org>  Thu, 06 Jul 2023 14:19:25 +0200
+
+max-mate-welcome (20210507max15) max; urgency=medium
+
+  * Build in MAX 12.0
+
+ -- CAU de MAX <cau_max@educa.madrid.org>  Mon, 29 May 2023 10:35:32 +0200
+
+max-mate-welcome (20210507max14) max; urgency=medium
+
+  * new version updated
+
+ -- CAU de MAX <cau_max@educa.madrid.org>  Tue, 31 Jan 2023 14:43:06 +0100
+
+max-mate-welcome (20210507max13) max; urgency=medium
+
+  * new version updated
+
+ -- CAU de MAX <cau_max@educa.madrid.org>  Tue, 31 Jan 2023 13:31:22 +0100
+
+max-mate-welcome (20210507max12) max; urgency=medium
+
+  * new version updated
+
+ -- CAU de MAX <cau_max@educa.madrid.org>  Tue, 31 Jan 2023 13:31:18 +0100
+
 max-mate-welcome (20210507max11) max; urgency=medium
 
   * Build in MAX 12.0
