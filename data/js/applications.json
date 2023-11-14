@@ -1,6 +1,6 @@
 {
     "Accessories": {
-        "caffeine": {
+	    "caffeine": {
             "name": "Caffeine",
             "img": "caffeine",
             "main-package": "caffeine",
@@ -8,8 +8,8 @@
             "remove-packages": "caffeine",
             "launch-command": "caffeine-indicator",
             "description": [
-                "Evita que el equipo entre en suspención cuando",
-                "se ejecuta una aplicación a pantalla completa"
+                "Evita que el equipo entre en suspensión cuando",
+                "se ejecuta una aplicación a pantalla completa."
             ],
             "alternate-to": null,
             "subcategory": "Desktop Management",
@@ -34,7 +34,7 @@
             "remove-packages": "convertall",
             "launch-command": "convertall",
             "description": [
-                "Convierte entre distintas unidades"
+                "Convierte entre distintas unidades."
             ],
             "alternate-to": null,
             "subcategory": "Calculator",
@@ -59,7 +59,7 @@
             "install-packages": "diodon",
             "remove-packages": "diodon",
             "description": [
-                "Gestor de portapapeles"
+                "Gestor de portapapeles."
             ],
             "alternate-to": null,
             "subcategory": "Desktop Management",
@@ -84,7 +84,7 @@
             "remove-packages": "gip",
             "launch-command": "gip",
             "description": [
-                "Calculadores para redes"
+                "Calculadora de redes."
             ],
             "alternate-to": null,
             "subcategory": "Calculator",
@@ -109,7 +109,7 @@
             "remove-packages": "gnote",
             "launch-command": "gnote",
             "description": [
-                "Aplicación de pequeñas notas para escritorio"
+                "Aplicación de pequeñas notas para escritorio."
             ],
             "alternate-to": "Post-it &reg; notes",
             "subcategory": "Note Taking",
@@ -134,7 +134,7 @@
             "install-packages": "gparted,xfsprogs,reiserfsprogs,reiser4progs,jfsutils,ntfs-3g,dosfstools,mtools,kpartx,dmraid,dmsetup,gpart",
             "remove-packages": "gparted",
             "description": [
-                "Avanzado gestor de particiones"
+                "Avanzado gestor de particiones."
             ],
             "alternate-to": null,
             "subcategory": "Partitioning Tools",
@@ -151,31 +151,6 @@
             },
             "working": true
         },
-        "etcher": {
-            "name": "Etcher",
-            "img": "etcher",
-            "main-package": "etcher-electron",
-            "launch-command": "etcher-electron",
-            "install-packages": "etcher-electron",
-            "remove-packages": "etcher-electron",
-            "description": [
-                "Escribe imágenes ISO a discos USB"
-            ],
-            "alternate-to": null,
-            "subcategory": "USB Writer",
-            "open-source": true,
-            "url-info": "https://etcher.io/",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skipmax"
-                }
-            },
-            "working": true
-        },
         "keepassx": {
             "name": "KeePassX",
             "img": "keepassx",
@@ -184,7 +159,7 @@
             "install-packages": "keepassx",
             "remove-packages": "keepassx",
             "description": [
-                "Gestor de contraseñas"
+                "Gestor de contraseñas."
             ],
             "alternate-to": "Enpass and LastPass",
             "subcategory": "Password Management",
@@ -209,7 +184,7 @@
             "install-packages": "redshift-gtk",
             "remove-packages": "redshift-gtk",
             "description": [
-                "Ajusta el color de temperatura de tu pantalla"
+                "Ajusta el color de temperatura de tu pantalla."
             ],
             "alternate-to": "f.lux &reg",
             "subcategory": "Cosmetic",
@@ -234,7 +209,7 @@
             "install-packages": "variety",
             "remove-packages": "variety",
             "description": [
-                "gestor de fondos de pantalla"
+                "Gestor de fondos de pantalla."
             ],
             "alternate-to": null,
             "subcategory": "Cosmetic",
@@ -258,7 +233,7 @@
             "name": "Arasuite",
             "img": "arasuite",
             "main-package": "arasuite",
-            "launch-command": "arasuite",
+            "launch-command": "araword",
             "install-packages": "arasuite",
             "remove-packages": "arasuite",
             "description": [
@@ -269,33 +244,6 @@
             "subcategory": "Elearning",
             "open-source": true,
             "url-info": "https://sourceforge.net/projects/arasuite/",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skipmax"
-                }
-            },
-            "working": true
-        },
-        "kolibri": {
-            "name": "Kolibri",
-            "img": "kolibri",
-            "main-package": "kolibri",
-            "launch-command": "firefox http://127.0.0.1:8080",
-            "install-packages": "kolibri",
-            "remove-packages": "kolibri",
-            "description": [
-                "Aplicación de educación universal, web.",
-                "Muy interesante porque permite trabajar ",
-                "offline con Khan Academy, por ejemplo."
-            ],
-            "alternate-to": null,
-            "subcategory": "Elearning",
-            "open-source": true,
-            "url-info": "https://learningequality.org/kolibri/",
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
@@ -334,31 +282,6 @@
             },
             "working": true
         },
-        "astro-education": {
-            "name": "Aplicaciones educativas de astronomía",
-            "img": "meta-education",
-            "main-package": "astro-education",
-            "launch-command": "",
-            "install-packages": "astro-education",
-            "remove-packages": "astro-education",
-            "description": [
-                "Aplicaciones educativas de astronomía"
-            ],
-            "alternate-to": null,
-            "subcategory": "Meta",
-            "open-source": true,
-            "url-info": "https://packages.ubuntu.com/focal/astro-education",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
         "junior-education": {
             "name": "Selección Debian Junior",
             "img": "meta-education",
@@ -385,24 +308,51 @@
                 }
             },
             "working": true
+        },
+        "kolibri": {
+            "name": "Kolibri",
+            "img": "kolibri",
+            "main-package": "kolibri",
+            "launch-command": "firefox http://127.0.0.1:8080",
+            "install-packages": "kolibri",
+            "remove-packages": "kolibri",
+            "description": [
+                "Aplicación de educación universal, web.",
+                "Muy interesante porque permite trabajar ",
+                "offline con Khan Academy, por ejemplo."
+            ],
+            "alternate-to": null,
+            "subcategory": "Elearning",
+            "open-source": true,
+            "url-info": "https://learningequality.org/kolibri/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
         }
     },
 
     "Games": {
-        "playonlinux": {
-            "name": "PlayOnLinux",
-            "img": "playonlinux",
-            "main-package": "playonlinux",
-            "launch-command": "playonlinux",
-            "install-packages": "playonlinux",
-            "remove-packages": "playonlinux",
+        "0ad": {
+            "name": "0 A.D",
+            "img": "0ad",
+            "main-package": "0ad",
+            "launch-command": "0ad",
+            "install-packages": "0ad",
+            "remove-packages": "0ad,0ad-data",
             "description": [
-                "Asistente para gestión de juegos Windows en Linux con WINE"
+                "Juego de estrategia."
             ],
             "alternate-to": null,
-            "subcategory": "Game Management",
+            "subcategory": "Real-time Strategy",
             "open-source": true,
-            "url-info": "https://www.playonlinux.com/",
+            "url-info": "http://play0ad.com/",
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
@@ -414,45 +364,21 @@
             },
             "working": true
         },
-        "lutris": {
-            "name": "Lutris",
-            "img": "lutris",
-            "main-package": "lutris",
-            "launch-command": "lutris",
-            "install-packages": "lutris",
-            "remove-packages": "lutris",
+        "aisleriot": {
+            "name": "Multi juegos",
+            "img": "aisleriot",
+            "main-package": "gnome-cards-data",
+            "launch-command": null,
+            "install-packages": "aisleriot,gnome-cards-data,gnome-mahjongg,gnome-mines,gnome-sudoku,branding-ubuntu",
+            "remove-packages": "aisleriot,gnome-cards-data,gnome-mahjongg,gnome-mines,gnome-sudoku,branding-ubuntu",
             "description": [
-                "Plataforma para instalar y gestionar juegos en Linux"
+                "Colección de múltiples juegos (cartas, ",
+                "Mahjongg, busc minas sudoku)."
             ],
             "alternate-to": null,
-            "subcategory": "Game Management",
+            "subcategory": "Card and Board Games",
             "open-source": true,
-            "url-info": "http://lutris.net",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skipmax"
-                }
-            },
-            "working": true
-        },
-        "0ad": {
-            "name": "0 A.D",
-            "img": "0ad",
-            "main-package": "0ad",
-            "launch-command": "0ad",
-            "install-packages": "0ad",
-            "remove-packages": "0ad,0ad-data",
-            "description": [
-                "Juego de estrategia"
-            ],
-            "alternate-to": null,
-            "subcategory": "Real-time Strategy",
-            "open-source": true,
-            "url-info": "http://play0ad.com/",
+            "url-info": "https://wiki.gnome.org/action/show/Attic/Games",
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
@@ -472,7 +398,7 @@
             "install-packages": "chromium-bsu,chromium-bsu-data",
             "remove-packages": "chromium-bsu,chromium-bsu-data",
             "description": [
-                "Juego arcade de marcianitos"
+                "Juego arcade de marcianitos."
             ],
             "alternate-to": null,
             "subcategory": "Shooter",
@@ -497,7 +423,7 @@
             "install-packages": "extremetuxracer,extremetuxracer-data",
             "remove-packages": "extremetuxracer,extremetuxracer-data",
             "description": [
-                "Juego de carreras protagonizado por Tux"
+                "Juego de carreras protagonizado por Tux."
             ],
             "alternate-to": null,
             "subcategory": "Racing",
@@ -522,7 +448,7 @@
             "install-packages": "flightgear",
             "remove-packages": "flightgear",
             "description": [
-                "Simulador aéreo, pilota un avión «like a boss»"
+                "Simulador aéreo, pilota un avión «like a boss»."
             ],
             "alternate-to": null,
             "subcategory": "Simulation",
@@ -572,38 +498,12 @@
             "install-packages": "frozen-bubble,frozen-bubble-data",
             "remove-packages": "frozen-bubble,frozen-bubble-data",
             "description": [
-                "Clon del popular juego Puzzle Booble"
+                "Clon del popular juego Puzzle Booble."
             ],
             "alternate-to": null,
             "subcategory": "Puzzle",
             "open-source": true,
             "url-info": "http://frozen-bubble.org/",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
-        "aisleriot": {
-            "name": "Multi juegos",
-            "img": "aisleriot",
-            "main-package": "gnome-cards-data",
-            "launch-command": null,
-            "install-packages": "aisleriot,gnome-cards-data,gnome-mahjongg,gnome-mines,gnome-sudoku,branding-ubuntu",
-            "remove-packages": "aisleriot,gnome-cards-data,gnome-mahjongg,gnome-mines,gnome-sudoku,branding-ubuntu",
-            "description": [
-                "Colección de múltiples juegos (cartas, ",
-                "Mahjongg, busc minas sudoku)"
-            ],
-            "alternate-to": null,
-            "subcategory": "Card and Board Games",
-            "open-source": true,
-            "url-info": "https://wiki.gnome.org/action/show/Attic/Games",
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
@@ -623,7 +523,7 @@
             "install-packages": "hedgewars,hedgewars-data",
             "remove-packages": "hedgewars,hedgewars-data",
             "description": [
-                "Juego por turnos de artillería"
+                "Juego por turnos de artillería."
             ],
             "alternate-to": null,
             "subcategory": "Puzzle",
@@ -641,6 +541,31 @@
             "working": true,
             "notes": "no packages for armhf on xenial"
         },
+        "lutris": {
+            "name": "Lutris",
+            "img": "lutris",
+            "main-package": "lutris",
+            "launch-command": "lutris",
+            "install-packages": "lutris",
+            "remove-packages": "lutris",
+            "description": [
+                "Plataforma para instalar y gestionar juegos en Linux."
+            ],
+            "alternate-to": null,
+            "subcategory": "Game Management",
+            "open-source": true,
+            "url-info": "https://launchpad.net/lutris",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
         "minetest": {
             "name": "Minetest",
             "img": "minetest",
@@ -649,7 +574,7 @@
             "install-packages": "minetest",
             "remove-packages": "minetest",
             "description": [
-                "Juego multijugador de bloques"
+                "Juego multijugador de bloques."
             ],
             "alternate-to": "Minecraft",
             "subcategory": "Open World",
@@ -674,7 +599,7 @@
             "install-packages": "neverball,neverball-data",
             "remove-packages": "neverball,neverball-data",
             "description": [
-                "Juego 3D de control de inclinación de una pelota"
+                "Juego 3D de control de inclinación de una pelota."
             ],
             "alternate-to": null,
             "subcategory": "Puzzle",
@@ -699,7 +624,7 @@
             "install-packages": "neverputt,neverputt-data",
             "remove-packages": "neverputt,neverputt-data",
             "description": [
-                "Golf 3D en miniatura"
+                "Golf 3D en miniatura."
             ],
             "alternate-to": null,
             "subcategory": "Sports",
@@ -724,12 +649,37 @@
             "install-packages": "nexuiz,nexuiz-data,nexuiz-music",
             "remove-packages": "nexuiz,nexuiz-data,nexuiz-music",
             "description": [
-                "Juego 3D en primera persona para disparar"
+                "Juego 3D en primera persona para disparar."
             ],
             "alternate-to": null,
             "subcategory": "Shooter",
             "open-source": true,
             "url-info": "http://www.alientrap.org/games/nexuiz",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "playonlinux": {
+            "name": "PlayOnLinux",
+            "img": "playonlinux",
+            "main-package": "playonlinux",
+            "launch-command": "playonlinux",
+            "install-packages": "playonlinux",
+            "remove-packages": "playonlinux",
+            "description": [
+                "Asistente para gestión de juegos Windows en Linux con WINE."
+            ],
+            "alternate-to": null,
+            "subcategory": "Game Management",
+            "open-source": true,
+            "url-info": "https://www.playonlinux.com/",
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
@@ -749,7 +699,7 @@
             "install-packages": "pysolfc,pysolfc-cardsets",
             "remove-packages": "pysolfc,pysolfc-cardsets",
             "description": [
-                "Colección de más de 1000 juegos tipo solitario"
+                "Colección de más de 1000 juegos tipo solitario."
             ],
             "alternate-to": null,
             "subcategory": "Card and Board Games",
@@ -774,7 +724,7 @@
             "install-packages": "redeclipse",
             "remove-packages": "redeclipse,redeclipse-common,redeclipse-data",
             "description": [
-                "Juego de disparos en primera persona"
+                "Juego de disparos en primera persona."
             ],
             "alternate-to": null,
             "subcategory": "Shooter",
@@ -799,7 +749,7 @@
             "install-packages": "steam:i386",
             "remove-packages": "steam:i386",
             "description": [
-                "Plataforma de juegos Steam"
+                "Plataforma de juegos Steam."
             ],
             "alternate-to": null,
             "subcategory": "Game Management",
@@ -824,7 +774,7 @@
             "install-packages": "steam:i386,steam-devices",
             "remove-packages": "steam:i386",
             "description": [
-                "Plataforma de juegos steam, soporte de dispositivos"
+                "Plataforma de juegos steam, soporte de dispositivos."
             ],
             "alternate-to": null,
             "subcategory": "Game Management",
@@ -849,7 +799,7 @@
             "install-packages": "supertuxkart",
             "remove-packages": "supertuxkart",
             "description": [
-                "Juego 3D de carreras de karts"
+                "Juego 3D de carreras de karts."
             ],
             "alternate-to": null,
             "subcategory": "Racing",
@@ -874,7 +824,7 @@
             "install-packages": "teeworlds,teeworlds-data",
             "remove-packages": "teeworlds,teeworlds-data",
             "description": [
-                "Juego online de plataformas 2D"
+                "Juego online de plataformas 2D."
             ],
             "alternate-to": null,
             "subcategory": "Shooter",
@@ -899,7 +849,7 @@
             "install-packages": "warzone2100,warzone2100-data,warzone2100-music",
             "remove-packages": "warzone2100,warzone2100-data,warzone2100-music",
             "description": [
-                "Juego 3D de estrategia en tiempo real"
+                "Juego 3D de estrategia en tiempo real."
             ],
             "alternate-to": null,
             "subcategory": "Strategy",
@@ -924,7 +874,7 @@
             "install-packages": "wesnoth,wesnoth-music",
             "remove-packages": "wesnoth,wesnoth-music",
             "description": [
-                "Juego táctico de turnos"
+                "Juego táctico de turnos."
             ],
             "alternate-to": null,
             "subcategory": "Strategy",
@@ -944,28 +894,28 @@
     },
 
     "Graphics": {
-        "openscad": {
-            "name": "Openscad",
-            "img": "openscad",
-            "main-package": "openscad",
-            "install-packages": "openscad",
-            "remove-packages": "openscad",
-            "launch-command": "openscad",
+        "blender": {
+            "name": "Blender",
+            "img": "blender",
+            "main-package": "blender",
+            "launch-command": "blender",
+            "install-packages": "blender",
+            "remove-packages": "blender",
             "description": [
-                "Software para el modelado de piezas en 3D.",
-                "FreeCAD tiene un módulo de integración para trabajar con él."
+                "Aplicación de modelado iluminación, renderizado, animación",
+                "y creación de gráficos 3D."
             ],
-            "alternate-to": null,
+            "alternate-to": "Adobe&reg; After Effects, Autodesk 3ds Max",
             "subcategory": "3D",
             "open-source": true,
-            "url-info": "http://www.openscad.org/",
+            "url-info": "https://www.blender.org/",
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
             "releases": "focal",
             "pre-install": {
                 "all": {
-                    "method": "skipmax"
+                    "method": "skip"
                 }
             },
             "working": true
@@ -996,85 +946,6 @@
             },
             "working": true
         },
-        "pinta": {
-            "name": "Pinta",
-            "img": "pinta",
-            "main-package": "pinta",
-            "install-packages": "pinta",
-            "remove-packages": "pinta",
-            "launch-command": "pinta",
-            "description": [
-                "El Paint de Linux con más funciones que este."
-            ],
-            "alternate-to": null,
-            "subcategory": "Editor",
-            "open-source": true,
-            "url-info": "https://pinta-project.com",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
-        "krita": {
-            "name": "Krita",
-            "img": "krita",
-            "main-package": "krita",
-            "install-packages": "krita",
-            "remove-packages": "krita",
-            "launch-command": "krita",
-            "description": [
-                "Es un programa profesional de pintura digital,",
-                "gratuito y hecho con código libre, ha sido creado",
-                "por los mismos artistas que desean hacer estas",
-                "herramientas accesibles para todos."
-            ],
-            "alternate-to": null,
-            "subcategory": "Editor",
-            "open-source": true,
-            "url-info": "https://krita.org",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
-        "blender": {
-            "name": "Blender",
-            "img": "blender",
-            "main-package": "blender",
-            "launch-command": "blender",
-            "install-packages": "blender",
-            "remove-packages": "blender",
-            "description": [
-                "Aplicación de modelado iluminación, renderizado, animación",
-                "y creación de gráficos 3D."
-            ],
-            "alternate-to": "Adobe&reg; After Effects, Autodesk 3ds Max",
-            "subcategory": "3D",
-            "open-source": true,
-            "url-info": "https://www.blender.org/",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
         "dia": {
             "name": "Dia",
             "img": "dia",
@@ -1083,7 +954,7 @@
             "install-packages": "dia,dia-common",
             "remove-packages": "dia,dia-common",
             "description": [
-                "Editor de diagramas y gráficos"
+                "Editor de diagramas y gráficos."
             ],
             "alternate-to": "Microsoft&reg; Office Visio&reg;",
             "subcategory": "Dibujo",
@@ -1130,32 +1001,6 @@
             },
             "working": true
         },
-        "shotwell": {
-            "name": "Shotwell",
-            "img": "shotwell",
-            "main-package": "shotwell",
-            "launch-command": "shotwell",
-            "install-packages": "shotwell",
-            "remove-packages": "shotwell,shotwell-common",
-            "description": [
-                "Organizador de fotografías, permite importar desde",
-                "cámara o tarjeta, organizar, etiquetar y exportar fotografías"
-            ],
-            "alternate-to": "Lightroom",
-            "subcategory": "Fotografía",
-            "open-source": true,
-            "url-info": "https://wiki.gnome.org/Apps/Shotwell",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                 "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
         "gimp": {
             "name": "GIMP",
             "img": "gimp",
@@ -1164,7 +1009,7 @@
             "install-packages": "gimp,gimp-data-extras,gimp-gap,gimp-plugin-registry",
             "remove-packages": "gimp,gimp-data-extras,gimp-gap,gimp-plugin-registry",
             "description": [
-                "Editor de imágenes avanzado"
+                "Editor de imágenes avanzado."
             ],
             "alternate-to": "Adobe&reg; Photoshop",
             "subcategory": "Editor",
@@ -1189,7 +1034,7 @@
             "install-packages": "gpick",
             "remove-packages": "gpick",
             "description": [
-                "Selector de color avanzado"
+                "Selector de color avanzado."
             ],
             "alternate-to": null,
             "subcategory": "Editor",
@@ -1214,12 +1059,40 @@
             "install-packages": "inkscape",
             "remove-packages": "inkscape",
             "description": [
-                "Editor vectorial (archivos SVG)"
+                "Editor vectorial (archivos SVG)."
             ],
             "alternate-to": "Adobe&reg; Illustrator",
             "subcategory": "Editor",
             "open-source": true,
             "url-info": "https://inkscape.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "krita": {
+            "name": "Krita",
+            "img": "krita",
+            "main-package": "krita",
+            "install-packages": "krita",
+            "remove-packages": "krita",
+            "launch-command": "krita",
+            "description": [
+                "Es un programa profesional de pintura digital,",
+                "gratuito y hecho con código libre, ha sido creado",
+                "por los mismos artistas que desean hacer estas",
+                "herramientas accesibles para todos."
+            ],
+            "alternate-to": null,
+            "subcategory": "Editor",
+            "open-source": true,
+            "url-info": "https://krita.org",
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
@@ -1239,7 +1112,7 @@
             "install-packages": "luminance-hdr",
             "remove-packages": "luminance-hdr",
             "description": [
-                "Interfaz para tratamiento de imágenes HDR"
+                "Interfaz para tratamiento de imágenes HDR."
             ],
             "alternate-to": "Photomatix",
             "subcategory": "Fotografía",
@@ -1264,12 +1137,63 @@
             "install-packages": "mypaint,mypaint-data,mypaint-data-extras",
             "remove-packages": "mypaint,mypaint-data,mypaint-data-extras",
             "description": [
-                "Programa de dibujo para tarjetas digitalizadoras"
+                "Programa de dibujo para tarjetas digitalizadoras."
             ],
             "alternate-to": null,
             "subcategory": "Editor",
             "open-source": true,
             "url-info": "http://mypaint.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "openscad": {
+            "name": "Openscad",
+            "img": "openscad",
+            "main-package": "openscad",
+            "install-packages": "openscad",
+            "remove-packages": "openscad",
+            "launch-command": "openscad",
+            "description": [
+                "Software para el modelado de piezas en 3D.",
+                "FreeCAD tiene un módulo de integración para trabajar con él."
+            ],
+            "alternate-to": null,
+            "subcategory": "3D",
+            "open-source": true,
+            "url-info": "http://www.openscad.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "pinta": {
+            "name": "Pinta",
+            "img": "pinta",
+            "main-package": "pinta",
+            "install-packages": "pinta",
+            "remove-packages": "pinta",
+            "launch-command": "pinta",
+            "description": [
+                "El Paint de Linux con más funciones que este."
+            ],
+            "alternate-to": null,
+            "subcategory": "Editor",
+            "open-source": true,
+            "url-info": "https://pinta-project.com",
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
@@ -1290,7 +1214,7 @@
             "remove-packages": "rapid-photo-downloader",
             "description": [
                 "Importador de fotografías desde cámaras,",
-                "tarjetas de memoria u otros dispositivos"
+                "tarjetas de memoria u otros dispositivos."
             ],
             "alternate-to": null,
             "subcategory": "Fotografía",
@@ -1307,6 +1231,32 @@
             },
             "working": true
         },
+        "shotwell": {
+            "name": "Shotwell",
+            "img": "shotwell",
+            "main-package": "shotwell",
+            "launch-command": "shotwell",
+            "install-packages": "shotwell",
+            "remove-packages": "shotwell,shotwell-common",
+            "description": [
+                "Organizador de fotografías, permite importar desde",
+                "cámara o tarjeta, organizar, etiquetar y exportar fotografías."
+            ],
+            "alternate-to": "Lightroom",
+            "subcategory": "Fotografía",
+            "open-source": true,
+            "url-info": "https://wiki.gnome.org/Apps/Shotwell",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                 "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
         "scribus": {
             "name": "Scribus",
             "img": "scribus",
@@ -1315,7 +1265,7 @@
             "install-packages": "scribus",
             "remove-packages": "scribus",
             "description": [
-                "Aplicaciónde maquetación de páginas"
+                "Aplicaciónde maquetación de páginas."
             ],
             "alternate-to": "Adobe&reg; InDesign",
             "subcategory": "Editor",
@@ -1340,7 +1290,7 @@
             "install-packages": "sweethome3d,sweethome3d-furniture",
             "remove-packages": "sweethome3d,sweethome3d-furniture",
             "description": [
-                "Aplicación de diseño de interiores"
+                "Aplicación de diseño de interiores."
             ],
             "alternate-to": null,
             "subcategory": "3D",
@@ -1368,7 +1318,7 @@
             "install-packages": "flashplugin-installer",
             "remove-packages": "flashplugin-installer",
             "description": [
-                "Plugin flash para navegadores"
+                "Plugin flash para navegadores."
             ],
             "alternate-to": null,
             "subcategory": "Plug-in",
@@ -1378,6 +1328,82 @@
             "url-ios": null,
             "arch": "i386,amd64",
             "releases": "bionic",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "caja-dropbox": {
+            "name": "Caja Dropbox",
+            "img": "dropbox",
+            "main-package": "caja-dropbox",
+            "launch-command": "caja-dropbox",
+            "install-packages": "caja-dropbox",
+            "remove-packages": "caja-dropbox",
+            "description": [
+                "Instalador de Dropbox&#8482; compatible con el",
+                "gestor de archivos «caja»."
+            ],
+            "alternate-to": null,
+            "subcategory": "Sincronización",
+            "open-source": false,
+            "url-info": "https://www.dropbox.com/",
+            "url-android": "https://play.google.com/store/apps/details?id=com.dropbox.android",
+            "url-ios": "https://itunes.apple.com/us/app/dropbox/id327630330",
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "chromium": {
+            "name": "Chromium",
+            "img": "chromium",
+            "main-package": "chromium-browser",
+            "launch-command": "chromium-browser",
+            "install-packages": "chromium-browser,chromium-codecs-ffmpeg-extra",
+            "remove-packages": "chromium-browser,chromium-codecs-ffmpeg-extra",
+            "description": [
+                "Navegador libre basado en Google Chrome."
+            ],
+            "alternate-to": null,
+            "subcategory": "Navegador",
+            "open-source": true,
+            "url-info": "https://www.chromium.org/Home",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "filezilla": {
+            "name": "FileZilla",
+            "img": "filezilla",
+            "main-package": "filezilla",
+            "launch-command": "filezilla",
+            "install-packages": "filezilla",
+            "remove-packages": "filezilla",
+            "description": [
+                "Completo cliente FTP con una interfaz sencilla."
+            ],
+            "alternate-to": null,
+            "subcategory": "Gestor descargas",
+            "open-source": true,
+            "url-info": "https://filezilla-project.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1414,109 +1440,6 @@
             },
             "working": true
         },
-        "chromium": {
-            "name": "Chromium",
-            "img": "chromium",
-            "main-package": "chromium-browser",
-            "launch-command": "chromium-browser",
-            "install-packages": "chromium-browser,chromium-codecs-ffmpeg-extra",
-            "remove-packages": "chromium-browser,chromium-codecs-ffmpeg-extra",
-            "description": [
-                "Navegador libre basado en Google Chrome"
-            ],
-            "alternate-to": null,
-            "subcategory": "Navegador",
-            "open-source": true,
-            "url-info": "https://www.chromium.org/Home",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
-        "vivaldi": {
-            "name": "Vivaldi",
-            "img": "vivaldi",
-            "main-package": "vivaldi-stable",
-            "launch-command": "vivaldi",
-            "install-packages": "vivaldi-stable",
-            "remove-packages": "vivaldi-stable",
-            "description": [
-                "Navegador web con motor webkit"
-            ],
-            "alternate-to": null,
-            "subcategory": "Navegador",
-            "open-source": false,
-            "url-info": "https://vivaldi.net",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skipmaxppa",
-                    "notes": "FIXME pendiente de empaquetar en MAX"
-                }
-            },
-            "working": true
-        },
-
-        "caja-dropbox": {
-            "name": "Caja Dropbox",
-            "img": "dropbox",
-            "main-package": "caja-dropbox",
-            "launch-command": "caja-dropbox",
-            "install-packages": "caja-dropbox",
-            "remove-packages": "caja-dropbox",
-            "description": [
-                "Instalador de Dropbox&#8482; compatible con el",
-                "gestor de archivos «caja»"
-            ],
-            "alternate-to": null,
-            "subcategory": "Sincronización",
-            "open-source": false,
-            "url-info": "https://www.dropbox.com/",
-            "url-android": "https://play.google.com/store/apps/details?id=com.dropbox.android",
-            "url-ios": "https://itunes.apple.com/us/app/dropbox/id327630330",
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
-        "filezilla": {
-            "name": "FileZilla",
-            "img": "filezilla",
-            "main-package": "filezilla",
-            "launch-command": "filezilla",
-            "install-packages": "filezilla",
-            "remove-packages": "filezilla",
-            "description": [
-                "Completo cliente FTP con una interfaz sencilla"
-            ],
-            "alternate-to": null,
-            "subcategory": "Gestor descargas",
-            "open-source": true,
-            "url-info": "https://filezilla-project.org/",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
         "gobby": {
             "name": "Gobby",
             "img": "gobby",
@@ -1525,7 +1448,7 @@
             "install-packages": "gobby",
             "remove-packages": "gobby",
             "description": [
-                "Editor colaborativo en red"
+                "Editor colaborativo en red."
             ],
             "alternate-to": null,
             "subcategory": "Colaboración",
@@ -1550,7 +1473,7 @@
             "install-packages": "hexchat",
             "remove-packages": "hexchat",
             "description": [
-                "Cliente gráfico de chat IRC"
+                "Cliente gráfico de chat IRC."
             ],
             "alternate-to": null,
             "subcategory": "Mensajería",
@@ -1575,7 +1498,7 @@
             "install-packages": "liferea",
             "remove-packages": "liferea",
             "description": [
-                "Lector de noticias RSS/Atom"
+                "Lector de noticias RSS/Atom."
             ],
             "alternate-to": null,
             "subcategory": "Navegador",
@@ -1651,7 +1574,7 @@
             "install-packages": "sparkleshare",
             "remove-packages": "sparkleshare",
             "description": [
-                "Sincronización de archivos con un servidor remoto"
+                "Sincronización de archivos con un servidor remoto."
             ],
             "alternate-to": null,
             "subcategory": "Sincronización",
@@ -1702,37 +1625,12 @@
             "install-packages": "thunderbird",
             "remove-packages": "thunderbird",
             "description": [
-                "Gestor de correo POP3, IMAP y lector de noticias RSS"
+                "Gestor de correo POP3, IMAP y lector de noticias RSS."
             ],
             "alternate-to": "Microsoft&reg; Outlook",
             "subcategory": "Email",
             "open-source": true,
             "url-info": "https://www.mozilla.org/en-US/thunderbird/",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
-        "torbrowser-launcher": {
-            "name": "Tor Browser",
-            "img": "torbrowser-launcher",
-            "main-package": "torbrowser-launcher",
-            "launch-command": "torbrowser-launcher",
-            "install-packages": "torbrowser-launcher",
-            "remove-packages": "torbrowser-launcher",
-            "description": [
-                "Navegador anónimo red TOR"
-            ],
-            "alternate-to": null,
-            "subcategory": "Navegador",
-            "open-source": true,
-            "url-info": "https://www.torproject.org/projects/torbrowser.html",
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
@@ -1752,7 +1650,7 @@
             "install-packages": "transmission-gtk",
             "remove-packages": "transmission-gtk",
             "description": [
-                "Cliente bittorrent"
+                "Cliente bittorrent."
             ],
             "alternate-to": null,
             "subcategory": "Gestor descargas",
@@ -1769,6 +1667,32 @@
             },
             "working": true
         },
+        "vivaldi": {
+            "name": "Vivaldi",
+            "img": "vivaldi",
+            "main-package": "vivaldi-stable",
+            "launch-command": "vivaldi",
+            "install-packages": "vivaldi-stable",
+            "remove-packages": "vivaldi-stable",
+            "description": [
+                "Navegador web con motor webkit."
+            ],
+            "alternate-to": null,
+            "subcategory": "Navegador",
+            "open-source": false,
+            "url-info": "https://vivaldi.net",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skipmaxppa",
+                    "notes": "FIXME pendiente de empaquetar en MAX"
+                }
+            },
+            "working": true
+        },
         "wireshark": {
             "name": "Wireshark",
             "img": "wireshark",
@@ -1777,7 +1701,7 @@
             "install-packages": "wireshark-gtk",
             "remove-packages": "wireshark-gtk,wireshark-common",
             "description": [
-                "Analizador de redes"
+                "Analizador de redes."
             ],
             "alternate-to": null,
             "subcategory": "Analizador",
@@ -1834,7 +1758,7 @@
             "install-packages": "calibre",
             "remove-packages": "calibre",
             "description": [
-                "Una completa aplicación de biblioteca virtual"
+                "Una completa aplicación de biblioteca virtual."
             ],
             "alternate-to": null,
             "subcategory": "Specialized",
@@ -1859,7 +1783,7 @@
             "install-packages": "focuswriter",
             "remove-packages": "focuswriter",
             "description": [
-                "Una aplicación para escribir libre de distracciones"
+                "Una aplicación para escribir libre de distracciones."
             ],
             "alternate-to": null,
             "subcategory": "Office Applications",
@@ -1884,7 +1808,7 @@
             "install-packages": "glabels",
             "remove-packages": "glabels",
             "description": [
-                "Aplicación para crear códigos de barras o tarjetas de visita"
+                "Aplicación para crear códigos de barras o tarjetas de visita."
             ],
             "alternate-to": null,
             "subcategory": "Printing",
@@ -1909,7 +1833,7 @@
             "install-packages": "gnucash",
             "remove-packages": "gnucash",
             "description": [
-                "Gestor de contabilidad personal"
+                "Gestor de contabilidad personal."
             ],
             "alternate-to": "Intuit&reg; Quicken&reg;",
             "subcategory": "Office Applications",
@@ -1934,7 +1858,7 @@
             "install-packages": "gramps,gir1.2-gtkspell3-3.0,gir1.2-webkit-3.0,python3-pil,rcs",
             "remove-packages": "gramps",
             "description": [
-                "Programa para gestión de datos genealógicos"
+                "Programa para gestión de datos genealógicos."
             ],
             "alternate-to": null,
             "subcategory": "Specialized",
@@ -1959,7 +1883,7 @@
             "install-packages": "libreoffice-core,libreoffice-gtk3,libreoffice-calc,libreoffice-draw,libreoffice-gnome,libreoffice-impress,libreoffice-writer",
             "remove-packages": "libreoffice-core,libreoffice-gtk3,libreoffice-calc,libreoffice-draw,libreoffice-gnome,libreoffice-impress,libreoffice-writer",
             "description": [
-                "Suite de productividad ofimática LibreOffice"
+                "Suite de productividad ofimática LibreOffice."
             ],
             "alternate-to": null,
             "subcategory": "Office Applications",
@@ -1976,31 +1900,6 @@
             },
             "working": true
         },
-        "texworks": {
-            "name": "TexWorks",
-            "img": "texworks",
-            "main-package": "texworks",
-            "launch-command": "texworks",
-            "install-packages": "texworks",
-            "remove-packages": "texworks",
-            "description": [
-                "Entorno para trabajo con documentos LaTeX"
-            ],
-            "alternate-to": null,
-            "subcategory": "Office Applications",
-            "open-source": true,
-            "url-info": "http://www.tug.org/texworks",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
         "planner": {
             "name": "Planner",
             "img": "planner",
@@ -2009,7 +1908,7 @@
             "install-packages": "planner",
             "remove-packages": "planner",
             "description": [
-                "Gestor de proyectos,, gráficos Gantt"
+                "Gestor de proyectos,, gráficos Gantt."
             ],
             "alternate-to": null,
             "subcategory": "Productivity Tracking",
@@ -2034,7 +1933,7 @@
             "install-packages": "retext",
             "remove-packages": "retext",
             "description": [
-                "Editor de texto Markdown"
+                "Editor de texto Markdown."
             ],
             "alternate-to": null,
             "subcategory": "Office Applications",
@@ -2050,212 +1949,36 @@
                 }
             },
             "working": true
+        },
+        "texworks": {
+            "name": "TexWorks",
+            "img": "texworks",
+            "main-package": "texworks",
+            "launch-command": "texworks",
+            "install-packages": "texworks",
+            "remove-packages": "texworks",
+            "description": [
+                "Entorno para trabajo con documentos LaTeX."
+            ],
+            "alternate-to": null,
+            "subcategory": "Office Applications",
+            "open-source": true,
+            "url-info": "http://www.tug.org/texworks",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
         }
     },
 
     "Programming": {
-        "d-feet": {
-            "name": "d-feet",
-            "img": "d-feet",
-            "main-package": "d-feet",
-            "launch-command": "d-feet",
-            "install-packages": "d-feet",
-            "remove-packages": "d-feet",
-            "description": [
-                "Depurador D-Bus gráfico"
-            ],
-            "alternate-to": null,
-            "subcategory": "Debugger",
-            "open-source": true,
-            "url-info": "https://wiki.gnome.org/Apps/DFeet",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
-        "geany": {
-            "name": "Geany",
-            "img": "geany",
-            "main-package": "geany",
-            "launch-command": "geany",
-            "install-packages": "geany,geany-plugins",
-            "remove-packages": "geany,geany-plugins",
-            "description": [
-                "Pequeño y ligero entorno de desarrollo"
-            ],
-            "alternate-to": null,
-            "subcategory": "IDEs",
-            "open-source": true,
-            "url-info": "http://www.geany.org/",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
-        "git-cola": {
-            "name": "Git-Cola",
-            "img": "git-cola",
-            "main-package": "git-cola",
-            "launch-command": "git-cola",
-            "install-packages": "git,git-cola",
-            "remove-packages": "git-cola",
-            "description": [
-                "Interfaz gráfico de GIT, un sistema de control de versiones"
-            ],
-            "alternate-to": null,
-            "subcategory": "Version Control",
-            "open-source": true,
-            "url-info": "https://git-cola.github.io/",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
-        "glade": {
-            "name": "Glade",
-            "img": "glade",
-            "main-package": "glade",
-            "launch-command": "glade",
-            "install-packages": "glade",
-            "remove-packages": "glade",
-            "description": [
-                "Editor de interfaces gráficas GTK+"
-            ],
-            "alternate-to": null,
-            "subcategory": "Design and Tools",
-            "open-source": true,
-            "url-info": "https://glade.gnome.org/",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
-        "meld": {
-            "name": "Meld",
-            "img": "meld",
-            "main-package": "meld",
-            "launch-command": "meld",
-            "install-packages": "meld",
-            "remove-packages": "meld",
-            "description": [
-                "Comparador de archivos visual e intuitivo"
-            ],
-            "alternate-to": null,
-            "subcategory": "Design and Tools",
-            "open-source": true,
-            "url-info": "http://meldmerge.org/",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
-
-        "pgadmin3": {
-            "name": "pgAdmin III",
-            "img": "pgadmin3",
-            "main-package": "pgadmin3",
-            "launch-command": "pgadmin3",
-            "install-packages": "pgadmin3",
-            "remove-packages": "pgadmin3",
-            "description": [
-                "Diseño de base de datos PostgreSQL"
-            ],
-            "alternate-to": null,
-            "subcategory": "Database",
-            "open-source": true,
-            "url-info": "http://www.pgadmin.org/",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
-        "poedit": {
-            "name": "Poedit",
-            "img": "poedit",
-            "main-package": "poedit",
-            "launch-command": "poedit",
-            "install-packages": "poedit",
-            "remove-packages": "poedit",
-            "description": [
-                "Editor de catálogos de traducción (archivos .po)"
-            ],
-            "alternate-to": null,
-            "subcategory": "Translation",
-            "open-source": true,
-            "url-info": "https://poedit.net/",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
-        "gambas": {
-            "name": "Gambas",
-            "img": "gambas3",
-            "main-package": "gambas3",
-            "install-packages": "gambas3,gambas3-gb-form-print",
-            "remove-packages": "gambas3-dev,gambas3-examples,gambas3-gb-args,gambas3-gb-cairo,gambas3-gb-chart,gambas3-gb-clipper,gambas3-gb-complex,gambas3-gb-compress-bzlib2,gambas3-gb-compress-zlib,gambas3-gb-compress,gambas3-gb-crypt,gambas3-gb-data,gambas3-gb-db-form,gambas3-gb-db-mysql,gambas3-gb-db-odbc,gambas3-gb-db-postgresql,gambas3-gb-db-sqlite3,gambas3-gb-db,gambas3-gb-dbus-trayicon,gambas3-gb-dbus,gambas3-gb-desktop-x11,gambas3-gb-desktop,gambas3-gb-eval-highlight,gambas3-gb-form-dialog,gambas3-gb-form-editor,gambas3-gb-form-mdi,gambas3-gb-form-print,gambas3-gb-form-stock,gambas3-gb-form-terminal,gambas3-gb-form,gambas3-gb-gmp,gambas3-gb-gsl,gambas3-gb-gtk,gambas3-gb-gui,gambas3-gb-httpd,gambas3-gb-image-effect,gambas3-gb-image-imlib,gambas3-gb-image-io,gambas3-gb-image,gambas3-gb-inotify,gambas3-gb-jit,gambas3-gb-logging,gambas3-gb-map,gambas3-gb-markdown,gambas3-gb-media-form,gambas3-gb-media,gambas3-gb-memcached,gambas3-gb-mime,gambas3-gb-mysql,gambas3-gb-ncurses,gambas3-gb-net-curl,gambas3-gb-net-pop3,gambas3-gb-net-smtp,gambas3-gb-net,gambas3-gb-openal,gambas3-gb-opengl-glsl,gambas3-gb-opengl-glu,gambas3-gb-opengl-sge,gambas3-gb-opengl,gambas3-gb-openssl,gambas3-gb-pcre,gambas3-gb-pdf,gambas3-gb-qt5-ext,gambas3-gb-qt5-opengl,gambas3-gb-qt5-webkit,gambas3-gb-qt5,gambas3-gb-report2,gambas3-gb-scanner,gambas3-gb-sdl2-audio,gambas3-gb-sdl2,gambas3-gb-settings,gambas3-gb-signal,gambas3-gb-term-form,gambas3-gb-term,gambas3-gb-util-web,gambas3-gb-util,gambas3-gb-vb,gambas3-gb-web-feed,gambas3-gb-web-form,gambas3-gb-web,gambas3-gb-xml-html,gambas3-gb-xml-rpc,gambas3-gb-xml-xslt,gambas3-gb-xml,gambas3-ide,gambas3-runtime,gambas3-script,gambas3",
-            "launch-command": "gambas3",
-            "description": [
-                "Convierte entre distintas unidades"
-            ],
-            "alternate-to": null,
-            "subcategory": "Calculator",
-            "open-source": true,
-            "url-info": "http://gambas.sourceforge.net/",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
-	"atom": {
+        "atom": {
             "name": "Atom",
             "img": "atom",
             "main-package": "atom",
@@ -2280,52 +2003,127 @@
             },
             "working": true
         },
-        "remarkable": {
-            "name": "Remarkable",
-            "img": "remarkable",
-            "main-package": "remarkable",
-            "launch-command": "remarkable",
-            "install-packages": "remarkable",
-            "remove-packages": "remarkable",
+        "d-feet": {
+            "name": "d-feet",
+            "img": "d-feet",
+            "main-package": "d-feet",
+            "launch-command": "d-feet",
+            "install-packages": "d-feet",
+            "remove-packages": "d-feet",
             "description": [
-                "El mejor editor 'Markdown' para Linux."
+                "Depurador D-Bus gráfico."
             ],
             "alternate-to": null,
-            "subcategory": "IDEs",
+            "subcategory": "Debugger",
             "open-source": true,
-            "url-info": "https://remarkableapp.github.io/",
+            "url-info": "https://wiki.gnome.org/Apps/DFeet",
             "url-android": null,
             "url-ios": null,
-            "arch": "amd64",
+            "arch": "i386,amd64",
             "releases": "focal",
             "pre-install": {
                 "all": {
-                    "method": "skipmax"
+                    "method": "skip"
                 }
             },
             "working": true
         },
-        "sonicpi": {
-            "name": "Sonic Pi",
-            "img": "sonic-pi",
-            "main-package": "sonic-pi",
-            "launch-command": "sonic-pi",
-            "install-packages": "sonic-pi",
-            "remove-packages": "sonic-pi",
+        "gambas": {
+            "name": "Gambas",
+            "img": "gambas3",
+            "main-package": "gambas3",
+            "install-packages": "gambas3,gambas3-gb-form-print",
+            "remove-packages": "gambas3-dev,gambas3-examples,gambas3-gb-args,gambas3-gb-cairo,gambas3-gb-chart,gambas3-gb-clipper,gambas3-gb-complex,gambas3-gb-compress-bzlib2,gambas3-gb-compress-zlib,gambas3-gb-compress,gambas3-gb-crypt,gambas3-gb-data,gambas3-gb-db-form,gambas3-gb-db-mysql,gambas3-gb-db-odbc,gambas3-gb-db-postgresql,gambas3-gb-db-sqlite3,gambas3-gb-db,gambas3-gb-dbus-trayicon,gambas3-gb-dbus,gambas3-gb-desktop-x11,gambas3-gb-desktop,gambas3-gb-eval-highlight,gambas3-gb-form-dialog,gambas3-gb-form-editor,gambas3-gb-form-mdi,gambas3-gb-form-print,gambas3-gb-form-stock,gambas3-gb-form-terminal,gambas3-gb-form,gambas3-gb-gmp,gambas3-gb-gsl,gambas3-gb-gtk,gambas3-gb-gui,gambas3-gb-httpd,gambas3-gb-image-effect,gambas3-gb-image-imlib,gambas3-gb-image-io,gambas3-gb-image,gambas3-gb-inotify,gambas3-gb-jit,gambas3-gb-logging,gambas3-gb-map,gambas3-gb-markdown,gambas3-gb-media-form,gambas3-gb-media,gambas3-gb-memcached,gambas3-gb-mime,gambas3-gb-mysql,gambas3-gb-ncurses,gambas3-gb-net-curl,gambas3-gb-net-pop3,gambas3-gb-net-smtp,gambas3-gb-net,gambas3-gb-openal,gambas3-gb-opengl-glsl,gambas3-gb-opengl-glu,gambas3-gb-opengl-sge,gambas3-gb-opengl,gambas3-gb-openssl,gambas3-gb-pcre,gambas3-gb-pdf,gambas3-gb-qt5-ext,gambas3-gb-qt5-opengl,gambas3-gb-qt5-webkit,gambas3-gb-qt5,gambas3-gb-report2,gambas3-gb-scanner,gambas3-gb-sdl2-audio,gambas3-gb-sdl2,gambas3-gb-settings,gambas3-gb-signal,gambas3-gb-term-form,gambas3-gb-term,gambas3-gb-util-web,gambas3-gb-util,gambas3-gb-vb,gambas3-gb-web-feed,gambas3-gb-web-form,gambas3-gb-web,gambas3-gb-xml-html,gambas3-gb-xml-rpc,gambas3-gb-xml-xslt,gambas3-gb-xml,gambas3-ide,gambas3-runtime,gambas3-script,gambas3",
+            "launch-command": "gambas3",
             "description": [
-                "El sintetizador programable para música en directo."
+                "Convierte entre distintas unidades."
             ],
             "alternate-to": null,
-            "subcategory": "IDEs",
+            "subcategory": "Calculator",
             "open-source": true,
-            "url-info": "https://sonic-pi.net/",
+            "url-info": "http://gambas.sourceforge.net/",
             "url-android": null,
             "url-ios": null,
             "arch": "amd64",
             "releases": "focal",
             "pre-install": {
                 "all": {
-                    "method": "skipmax"
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "geany": {
+            "name": "Geany",
+            "img": "geany",
+            "main-package": "geany",
+            "launch-command": "geany",
+            "install-packages": "geany,geany-plugins",
+            "remove-packages": "geany,geany-plugins",
+            "description": [
+                "Pequeño y ligero entorno de desarrollo."
+            ],
+            "alternate-to": null,
+            "subcategory": "IDEs",
+            "open-source": true,
+            "url-info": "http://www.geany.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "git-cola": {
+            "name": "Git-Cola",
+            "img": "git-cola",
+            "main-package": "git-cola",
+            "launch-command": "git-cola",
+            "install-packages": "git,git-cola",
+            "remove-packages": "git-cola",
+            "description": [
+                "Interfaz gráfico de GIT, un sistema de control de versiones."
+            ],
+            "alternate-to": null,
+            "subcategory": "Version Control",
+            "open-source": true,
+            "url-info": "https://git-cola.github.io/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "glade": {
+            "name": "Glade",
+            "img": "glade",
+            "main-package": "glade",
+            "launch-command": "glade",
+            "install-packages": "glade",
+            "remove-packages": "glade",
+            "description": [
+                "Editor de interfaces gráficas GTK+."
+            ],
+            "alternate-to": null,
+            "subcategory": "Design and Tools",
+            "open-source": true,
+            "url-info": "https://glade.gnome.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
                 }
             },
             "working": true
@@ -2356,28 +2154,120 @@
                 }
             },
             "working": true
+        },
+        "meld": {
+            "name": "Meld",
+            "img": "meld",
+            "main-package": "meld",
+            "launch-command": "meld",
+            "install-packages": "meld",
+            "remove-packages": "meld",
+            "description": [
+                "Comparador de archivos visual e intuitivo."
+            ],
+            "alternate-to": null,
+            "subcategory": "Design and Tools",
+            "open-source": true,
+            "url-info": "http://meldmerge.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "pgadmin3": {
+            "name": "pgAdmin III",
+            "img": "pgadmin3",
+            "main-package": "pgadmin3",
+            "launch-command": "pgadmin3",
+            "install-packages": "pgadmin3",
+            "remove-packages": "pgadmin3",
+            "description": [
+                "Diseño de base de datos PostgreSQL."
+            ],
+            "alternate-to": null,
+            "subcategory": "Database",
+            "open-source": true,
+            "url-info": "http://www.pgadmin.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "poedit": {
+            "name": "Poedit",
+            "img": "poedit",
+            "main-package": "poedit",
+            "launch-command": "poedit",
+            "install-packages": "poedit",
+            "remove-packages": "poedit",
+            "description": [
+                "Editor de catálogos de traducción (archivos .po)."
+            ],
+            "alternate-to": null,
+            "subcategory": "Translation",
+            "open-source": true,
+            "url-info": "https://poedit.net/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
         }
     },
 
     "Media": {
-        "obs-studio": {
-            "name": "Open Broadcaster Software",
-            "img": "obs-studio",
-            "main-package": "obs-studio",
-            "install-packages": "obs-studio",
-            "remove-packages": "obs-studio",
-            "launch-command": "caffeine-indicator",
+        "ardour": {
+            "name": "Ardour",
+            "img": "ardour",
+            "main-package": "ardour",
+            "launch-command": "ardour",
+            "install-packages": "ardour",
+            "remove-packages": "ardour",
             "description": [
-                "Open Broadcaster Software es una aplicación para la grabación",
-                "de vídeo y la realización de emisiones en directo ",
-                "(live streaming). La versión studio permite la producción",
-                "en tiempo real y la postproducción del vídeo.",
-                "Este software está recomendado por YouTube."
+                "Editor de audio profesionarl. Puede ser usada para grabar, editar y mezclar audio multipista",
+                "<ul>",
+                "<li>Es capaz de hacer todas las operaciones de edición",
+                "estándar no lineales como: insertar, reemplazar, borrar,",
+                "mover, desplazar, seleccionar, cortar/copiar/pegar.</li>",
+                "<li>Tiene capacidades ilimitadas deshacer/rehacer</li>",
+                "<li>Puede guardar «versiones» independientes de una pista",
+                "o una pieza entera.</li>",
+                "<li>La capacidad de canales de entrada y salida de Ardor",
+                "está limitado sólo por el número de canales de la",
+                "interfaz de audio</li>",
+                "<li>Jack (el Kit de conexión de audio) se utiliza para",
+                "todas las E/S de audio, permitiendo el intercambio de",
+                "datos en perfecto samplesync con otras aplicaciones o",
+                "interfaces de hardware de audio.</li>",
+                "<li>Ardour soporta interfaces pro-audio por medio del",
+                "proyecto ALSA, que proporciona alta calidad, unidades de",
+                "proceso bien diseñadas y APIs para E/S de audio bajo Linux.",
+                "Cualquier interfaz soportada por ALSA puede usarse con Ardour.",
+                "Este incluye el canal 26 totalmente digital RME Hammerfall,",
+                "el Midman Delta 1010 y muchos otros.</li>",
+                "</ul>"
             ],
             "alternate-to": null,
-            "subcategory": "Streaming",
+            "subcategory": "Edición de sonido",
             "open-source": true,
-            "url-info": "https://obsproject.com/",
+            "url-info": "https://ardour.org/",
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
@@ -2445,56 +2335,6 @@
             },
             "working": true
         },
-        "sox": {
-            "name": "SoX",
-            "img": "sox",
-            "main-package": "sox",
-            "install-packages": "sox",
-            "remove-packages": "sox",
-            "launch-command": "sox",
-            "description": [
-                "Conversor de formatos de audio en línea de comando."
-            ],
-            "alternate-to": null,
-            "subcategory": "Edición de sonido",
-            "open-source": true,
-            "url-info": "http://sox.sourceforge.net/",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
-        "soundkonverter": {
-            "name": "SoundKonverter",
-            "img": "soundkonverter",
-            "main-package": "soundkonverter",
-            "install-packages": "soundkonverter",
-            "remove-packages": "soundkonverter",
-            "launch-command": "soundkonverter",
-            "description": [
-                "Conversor de formatos de audio gráfico."
-            ],
-            "alternate-to": null,
-            "subcategory": "Edición de sonido",
-            "open-source": true,
-            "url-info": "https://github.com/dfaust/soundkonverter",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
         "audacity": {
             "name": "Audacity",
             "img": "audacity",
@@ -2512,131 +2352,6 @@
             "subcategory": "Edición de sonido",
             "open-source": true,
             "url-info": "http://audacityteam.org/",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
-        "rosegarden": {
-            "name": "Rosegarden",
-            "img": "rosegarden",
-            "main-package": "rosegarden",
-            "launch-command": "rosegarden",
-            "install-packages": "rosegarden",
-            "remove-packages": "rosegarden",
-            "description": [
-                "Secuenciador profesional de audio y MIDI, editor de",
-                "partituras y entorno general para edición y",
-                "composición de música."
-            ],
-            "alternate-to": null,
-            "subcategory": "Edición de sonido",
-            "open-source": true,
-            "url-info": "http://www.rosegardenmusic.com/",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
-        "sweep": {
-            "name": "Sweep",
-            "img": "sweep",
-            "main-package": "sweep",
-            "launch-command": "sweep",
-            "install-packages": "sweep",
-            "remove-packages": "sweep",
-            "description": [
-                "Editor de audio compatible con gran cantidad de formatos.",
-                "Trabaja con archivos multicanal y con plugins LDSPA."
-            ],
-            "alternate-to": null,
-            "subcategory": "Edición de sonido",
-            "open-source": true,
-            "url-info": "http://www.metadecks.org/software/sweep/",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skip"
-                }
-            },
-            "working": true
-        },
-        "guvcview": {
-            "name": "GUVCview",
-            "img": "guvcview",
-            "main-package": "guvcview",
-            "launch-command": "guvcview",
-            "install-packages": "guvcview",
-            "remove-packages": "guvcview",
-            "description": [
-                "Aplicación para capturar audio y vídeo con una webcam,",
-                "muy configurable."
-            ],
-            "alternate-to": "Cheese",
-            "subcategory": "Grabación",
-            "open-source": true,
-            "url-info": "http://guvcview.sourceforge.net",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skipmax"
-                }
-            },
-            "working": true
-        },
-        "ardour": {
-            "name": "Ardour",
-            "img": "ardour",
-            "main-package": "ardour",
-            "launch-command": "ardour",
-            "install-packages": "ardour",
-            "remove-packages": "ardour",
-            "description": [
-                "Editor de audio profesionarl. Puede ser usada para grabar, editar y mezclar audio multipista",
-                "<ul>",
-                "<li>Es capaz de hacer todas las operaciones de edición",
-                "estándar no lineales como: insertar, reemplazar, borrar,",
-                "mover, desplazar, seleccionar, cortar/copiar/pegar.</li>",
-                "<li>Tiene capacidades ilimitadas deshacer/rehacer</li>",
-                "<li>Puede guardar «versiones» independientes de una pista",
-                "o una pieza entera.</li>",
-                "<li>La capacidad de canales de entrada y salida de Ardor",
-                "está limitado sólo por el número de canales de la",
-                "interfaz de audio</li>",
-                "<li>Jack (el Kit de conexión de audio) se utiliza para",
-                "todas las E/S de audio, permitiendo el intercambio de",
-                "datos en perfecto samplesync con otras aplicaciones o",
-                "interfaces de hardware de audio.</li>",
-                "<li>Ardour soporta interfaces pro-audio por medio del",
-                "proyecto ALSA, que proporciona alta calidad, unidades de",
-                "proceso bien diseñadas y APIs para E/S de audio bajo Linux.",
-                "Cualquier interfaz soportada por ALSA puede usarse con Ardour.",
-                "Este incluye el canal 26 totalmente digital RME Hammerfall,",
-                "el Midman Delta 1010 y muchos otros.</li>",
-                "</ul>"
-            ],
-            "alternate-to": null,
-            "subcategory": "Edición de sonido",
-            "open-source": true,
-            "url-info": "https://ardour.org/",
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
@@ -2675,6 +2390,131 @@
             "pre-install": {
                 "all": {
                     "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "ffdiaporama": {
+            "name": "ffDiaporama",
+            "img": "ffdiaporama",
+            "main-package": "ffdiaporama",
+            "launch-command": "ffdiaporama",
+            "install-packages": "ffdiaporama",
+            "remove-packages": "ffdiaporama",
+            "description": [
+                "ffDiaporama es una aplicación para la creación de",
+                "secuencias de vídeos que puede trabajar con títulos",
+                "(estáticos o animados), imágenes o fotos (estáticas o",
+                "animadas), videoclips y música. Estas secuencias formarán ",
+                "una presentación a partir de transiciones, para producir",
+                "finalmente vídeos completos.<br>",
+                "Muy útil como alternativa a una presentación estándar o ",
+                "convertir una presentación en un vídeo."
+            ],
+            "alternate-to": null,
+            "subcategory": "Conversor de vídeo",
+            "open-source": true,
+            "url-info": "http://ffdiaporama.tuxfamily.org/?lang=es",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "guvcview": {
+            "name": "GUVCview",
+            "img": "guvcview",
+            "main-package": "guvcview",
+            "launch-command": "guvcview",
+            "install-packages": "guvcview",
+            "remove-packages": "guvcview",
+            "description": [
+                "Aplicación para capturar audio y vídeo con una webcam,",
+                "muy configurable."
+            ],
+            "alternate-to": "Cheese",
+            "subcategory": "Grabación",
+            "open-source": true,
+            "url-info": "http://guvcview.sourceforge.net",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "handbrake": {
+            "name": "Handbrake",
+            "img": "handbrake",
+            "main-package": "handbrake-gtk",
+            "launch-command": "ghb",
+            "install-packages": "handbrake-gtk",
+            "remove-packages": "handbrake-gtk",
+            "description": [
+                "HandBrake es una herramienta para la conversión de ",
+                "vídeo a casi cualquier formato dentro una selección ",
+                "de codecs modernos y con gran soporte.<br>",
+                "Muy útil para convertir DVD vídeo a otro formato para ",
+                "disponer de una copia de seguridad.<br>",
+                "Razones para usar HandBrake: convierte vídeo desde casi ",
+                "cualquier formato, es Libre y de Código Abierto, es rápido",
+                "y consigue altas compresiones útiles para la Mediateca de ",
+                "EducaMadrid u otros hostings de vídeo."
+            ],
+            "alternate-to": null,
+            "subcategory": "Conversor de vídeo",
+            "open-source": true,
+            "url-info": "https://handbrake.fr",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
+                }
+            },
+            "working": true
+        },
+        "kdenlive": {
+            "name": "Kdenlive",
+            "img": "kdenlive",
+            "main-package": "kdenlive",
+            "launch-command": "kdenlive",
+            "install-packages": "kdenlive",
+            "remove-packages": "kdenlive",
+            "description": [
+                "Kdenlive es un editor de video multipista.",
+                "Soporta formatos de edición DV, AVCHD y HDV.",
+                "<ul>",
+                "<li>Soporta gran cantidad de códecs y formatos de archivo de audio, video e imagen</li>",
+                "<li>Puede establecer perfiles individuales de resolución, frecuencia de cuadro y campo</li>",
+                "<li>Soporta gran cantidad de cámaras y magnetoscopios.</li>",
+                "<li>Su editor permite un núúmero ilimitado de pistass de video y audio. Pudiendo organizarlas en capas.</li>",
+                "<li>Herramientas de edición configurables en teclado.</li>",
+                "<li>Gran cantidad de efectos.</li>",
+                "</ul>"
+            ],
+            "alternate-to": null,
+            "subcategory": "Editor de vídeo",
+            "open-source": true,
+            "url-info": "https://kdenlive.org/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skipmax"
                 }
             },
             "working": true
@@ -2746,6 +2586,67 @@
             },
             "working": true
         },
+        "lives": {
+            "name": "Lives",
+            "img": "lives",
+            "main-package": "lives",
+            "launch-command": "lives",
+            "install-packages": "lives",
+            "remove-packages": "lives",
+            "description": [
+                "Lives es un editor de video multipista.",
+                "Soporta la mayoría de sistemas y plataformas.",
+                "<ul>",
+                "<li>Permite editar inmediatamente sin tener que prestar atención al formato de archivo</li>",
+                "<li>Herramientas de edición configurables en teclado.</li>",
+                "<li>Gran cantidad de efectos.</li>",
+                "<li>Herramienta utilizada por los VJ en directo.</li>",
+                "</ul>"
+            ],
+            "alternate-to": null,
+            "subcategory": "Editor de vídeo",
+            "open-source": true,
+            "url-info": "http://lives-video.com/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "obs-studio": {
+            "name": "Open Broadcaster Software",
+            "img": "obs-studio",
+            "main-package": "obs-studio",
+            "install-packages": "obs-studio",
+            "remove-packages": "obs-studio",
+            "launch-command": "obso",
+            "description": [
+                "Open Broadcaster Software es una aplicación para la grabación",
+                "de vídeo y la realización de emisiones en directo ",
+                "(live streaming). La versión studio permite la producción",
+                "en tiempo real y la postproducción del vídeo.",
+                "Este software está recomendado por YouTube."
+            ],
+            "alternate-to": null,
+            "subcategory": "Streaming",
+            "open-source": true,
+            "url-info": "https://obsproject.com/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
         "openshot": {
             "name": "Openshot",
             "img": "openshot-qt",
@@ -2793,40 +2694,6 @@
             },
             "working": true
         },
-        "kdenlive": {
-            "name": "Kdenlive",
-            "img": "kdenlive",
-            "main-package": "kdenlive",
-            "launch-command": "kdenlive",
-            "install-packages": "kdenlive",
-            "remove-packages": "kdenlive",
-            "description": [
-                "Kdenlive es un editor de video multipista.",
-                "Soporta formatos de edición DV, AVCHD y HDV.",
-                "<ul>",
-                "<li>Soporta gran cantidad de códecs y formatos de archivo de audio, video e imagen</li>",
-                "<li>Puede establecer perfiles individuales de resolución, frecuencia de cuadro y campo</li>",
-                "<li>Soporta gran cantidad de cámaras y magnetoscopios.</li>",
-                "<li>Su editor permite un núúmero ilimitado de pistass de video y audio. Pudiendo organizarlas en capas.</li>",
-                "<li>Herramientas de edición configurables en teclado.</li>",
-                "<li>Gran cantidad de efectos.</li>",
-                "</ul>"
-            ],
-            "alternate-to": null,
-            "subcategory": "Editor de vídeo",
-            "open-source": true,
-            "url-info": "https://kdenlive.org/",
-            "url-android": null,
-            "url-ios": null,
-            "arch": "i386,amd64",
-            "releases": "focal",
-            "pre-install": {
-                "all": {
-                    "method": "skipmax"
-                }
-            },
-            "working": true
-        },
         "pitivi": {
             "name": "PiTiVi",
             "img": "pitivi",
@@ -2859,27 +2726,22 @@
             },
             "working": true
         },
-        "lives": {
-            "name": "Lives",
-            "img": "lives",
-            "main-package": "lives",
-            "launch-command": "lives",
-            "install-packages": "lives",
-            "remove-packages": "lives",
+        "rosegarden": {
+            "name": "Rosegarden",
+            "img": "rosegarden",
+            "main-package": "rosegarden",
+            "launch-command": "rosegarden",
+            "install-packages": "rosegarden",
+            "remove-packages": "rosegarden",
             "description": [
-                "Lives es un editor de video multipista.",
-                "Soporta la mayoría de sistemas y plataformas.",
-                "<ul>",
-                "<li>Permite editar inmediatamente sin tener que prestar atención al formato de archivo</li>",
-                "<li>Herramientas de edición configurables en teclado.</li>",
-                "<li>Gran cantidad de efectos.</li>",
-                "<li>Herramienta utilizada por los VJ en directo.</li>",
-                "</ul>"
+                "Secuenciador profesional de audio y MIDI, editor de",
+                "partituras y entorno general para edición y",
+                "composición de música."
             ],
             "alternate-to": null,
-            "subcategory": "Editor de vídeo",
+            "subcategory": "Edición de sonido",
             "open-source": true,
-            "url-info": "http://lives-video.com/",
+            "url-info": "http://www.rosegardenmusic.com/",
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
@@ -2891,67 +2753,78 @@
             },
             "working": true
         },
-        "ffdiaporama": {
-            "name": "ffDiaporama",
-            "img": "ffdiaporama",
-            "main-package": "ffdiaporama",
-            "launch-command": "ffdiaporama",
-            "install-packages": "ffdiaporama",
-            "remove-packages": "ffdiaporama",
+        "soundkonverter": {
+            "name": "SoundKonverter",
+            "img": "soundkonverter",
+            "main-package": "soundkonverter",
+            "install-packages": "soundkonverter",
+            "remove-packages": "soundkonverter",
+            "launch-command": "soundkonverter",
             "description": [
-                "ffDiaporama es una aplicación para la creación de",
-                "secuencias de vídeos que puede trabajar con títulos",
-                "(estáticos o animados), imágenes o fotos (estáticas o",
-                "animadas), videoclips y música. Estas secuencias formarán ",
-                "una presentación a partir de transiciones, para producir",
-                "finalmente vídeos completos.<br>",
-                "Muy útil como alternativa a una presentación estándar o ",
-                "convertir una presentación en un vídeo."
+                "Conversor de formatos de audio gráfico."
             ],
             "alternate-to": null,
-            "subcategory": "Conversor de vídeo",
+            "subcategory": "Edición de sonido",
             "open-source": true,
-            "url-info": "http://ffdiaporama.tuxfamily.org/?lang=es",
+            "url-info": "https://github.com/dfaust/soundkonverter",
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
             "releases": "focal",
             "pre-install": {
                 "all": {
-                    "method": "skipmax"
+                    "method": "skip"
                 }
             },
             "working": true
         },
-        "handbrake": {
-            "name": "Handbrake",
-            "img": "handbrake",
-            "main-package": "handbrake-gtk",
-            "launch-command": "ghb",
-            "install-packages": "handbrake-gtk",
-            "remove-packages": "handbrake-gtk",
+        "sox": {
+            "name": "SoX",
+            "img": "sox",
+            "main-package": "sox",
+            "install-packages": "sox",
+            "remove-packages": "sox",
+            "launch-command": "sox",
             "description": [
-                "HandBrake es una herramienta para la conversión de ",
-                "vídeo a casi cualquier formato dentro una selección ",
-                "de codecs modernos y con gran soporte.<br>",
-                "Muy útil para convertir DVD vídeo a otro formato para ",
-                "disponer de una copia de seguridad.<br>",
-                "Razones para usar HandBrake: convierte vídeo desde casi ",
-                "cualquier formato, es Libre y de Código Abierto, es rápido",
-                "y consigue altas compresiones útiles para la Mediateca de ",
-                "EducaMadrid u otros hostings de vídeo."
+                "Conversor de formatos de audio en línea de comando."
             ],
             "alternate-to": null,
-            "subcategory": "Conversor de vídeo",
+            "subcategory": "Edición de sonido",
             "open-source": true,
-            "url-info": "https://handbrake.fr",
+            "url-info": "http://sox.sourceforge.net/",
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
             "releases": "focal",
             "pre-install": {
                 "all": {
-                    "method": "skipmax"
+                    "method": "skip"
+                }
+            },
+            "working": true
+        },
+        "sweep": {
+            "name": "Sweep",
+            "img": "sweep",
+            "main-package": "sweep",
+            "launch-command": "sweep",
+            "install-packages": "sweep",
+            "remove-packages": "sweep",
+            "description": [
+                "Editor de audio compatible con gran cantidad de formatos.",
+                "Trabaja con archivos multicanal y con plugins LDSPA."
+            ],
+            "alternate-to": null,
+            "subcategory": "Edición de sonido",
+            "open-source": true,
+            "url-info": "http://www.metadecks.org/software/sweep/",
+            "url-android": null,
+            "url-ios": null,
+            "arch": "i386,amd64",
+            "releases": "focal",
+            "pre-install": {
+                "all": {
+                    "method": "skip"
                 }
             },
             "working": true

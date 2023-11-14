@@ -1,3 +1,9 @@
+max-mate-welcome (20210507max17) max; urgency=medium
+
+  * applications.json upgraded 
+
+ -- CAU de MAX <cau_max@educa.madrid.org>  Tue, 14 Nov 2023 09:50:56 +0100
+
 max-mate-welcome (20210507max16) max; urgency=medium
 
   * 11.5.1 => 11.5.2 upgraded   
