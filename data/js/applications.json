@@ -2624,7 +2624,7 @@
             "main-package": "obs-studio",
             "install-packages": "obs-studio",
             "remove-packages": "obs-studio",
-            "launch-command": "obso",
+            "launch-command": "obs",
             "description": [
                 "Open Broadcaster Software es una aplicación para la grabación",
                 "de vídeo y la realización de emisiones en directo ",

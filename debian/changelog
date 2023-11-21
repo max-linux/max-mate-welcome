@@ -1,3 +1,9 @@
+max-mate-welcome (20210507max18) max; urgency=medium
+
+  * OBS launch-command modified
+
+ -- CAU de MAX <cau_max@educa.madrid.org>  Tue, 21 Nov 2023 09:44:44 +0100
+
 max-mate-welcome (20210507max17) max; urgency=medium
 
   * applications.json upgraded 
