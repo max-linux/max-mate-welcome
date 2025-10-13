@@ -1514,7 +1514,7 @@ class WelcomeApp(object):
         ## Social Links ##
         self.footer_left = '<div id="social" class="pull-left"> \
         <button onclick="cmd(\'link?https://www.educa2.madrid.org/web/max/\')" title="' + _("MAdrid_linuX Website") + '"><img src="' + trans.res_dir + 'img/welcome/maxinside.png"></button> \
-        <button onclick="cmd(\'link?https://twitter.com/MAX_MAdridlinuX\')" title="Twitter"><img src="' + trans.res_dir + 'img/social/twitter.svg"></button> \
+        <button onclick="cmd(\'link?https://twitter.com/MAX_MAdridlinuX\')" title="Twitter"><img src="' + trans.res_dir + 'img/social/x_logo.svg"></button> \
         <button onclick="cmd(\'link?https://www.educa2.madrid.org/educamadrid/\')" title="' + _("Educamadrid") + '"><img src="' + trans.res_dir + 'img/welcome/educamadrid.png"></button> \
         </div>'
         # self.footer_close = '<button onclick="cmd(\'quit\')" class="btn btn-inverse">' + string.close + '&zwnj;</button>'

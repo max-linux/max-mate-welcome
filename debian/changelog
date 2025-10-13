@@ -1,3 +1,28 @@
+max-mate-welcome (20210507max22) max; urgency=medium
+
+  * links and text upgraded
+
+ -- CAU de MAX <cau_max@educa.madrid.org>  Mon, 13 Oct 2025 17:06:08 +0200
+
+max-mate-welcome (20210507max21) max; urgency=medium
+
+  * jammy upgraded
+
+ -- CAU de MAX <cau_max@educa.madrid.org>  Thu, 14 Mar 2024 11:05:47 +0100
+
+max-mate-welcome (20210507max20) max; urgency=medium
+
+  * twitter logo removed 
+
+ -- CAU de MAX <cau_max@educa.madrid.org>  Tue, 30 Jan 2024 14:21:10 +0100
+
+max-mate-welcome (20210507max19) max; urgency=medium
+
+  * moved from 11.5.2 to 12.0 
+  * twitter logo changed.
+
+ -- CAU de MAX <cau_max@educa.madrid.org>  Tue, 30 Jan 2024 13:55:39 +0100
+
 max-mate-welcome (20210507max18) max; urgency=medium
 
   * OBS launch-command modified

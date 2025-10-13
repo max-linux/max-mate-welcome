@@ -18,7 +18,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -43,7 +43,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -68,7 +68,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -93,7 +93,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -118,7 +118,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -143,7 +143,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -168,7 +168,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -193,7 +193,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -218,7 +218,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -247,7 +247,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -274,7 +274,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -297,11 +297,11 @@
             "alternate-to": null,
             "subcategory": "Meta",
             "open-source": true,
-            "url-info": "https://packages.ubuntu.com/focal/junior-education",
+            "url-info": "https://packages.ubuntu.com/jammy/junior-education",
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -328,7 +328,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -356,7 +356,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -382,7 +382,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -407,7 +407,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -432,7 +432,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -457,7 +457,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -482,7 +482,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -507,7 +507,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -532,7 +532,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -558,7 +558,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -583,7 +583,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -608,7 +608,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -633,7 +633,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -658,7 +658,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -683,7 +683,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -708,7 +708,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -733,7 +733,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -758,7 +758,7 @@
             "url-android": "https://play.google.com/store/apps/details?id=com.valvesoftware.android.steam.community&hl=en",
             "url-ios": "https://itunes.apple.com/gb/app/steam-mobile/id495369748",
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "multiverse-repo"
@@ -783,7 +783,7 @@
             "url-android": "https://play.google.com/store/apps/details?id=com.valvesoftware.android.steam.community&hl=en",
             "url-ios": "https://itunes.apple.com/gb/app/steam-mobile/id495369748",
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "multiverse-repo"
@@ -808,7 +808,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -833,7 +833,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -858,7 +858,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -883,7 +883,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -912,7 +912,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -938,7 +938,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -963,7 +963,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -993,7 +993,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1018,7 +1018,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1043,7 +1043,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1068,7 +1068,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1096,7 +1096,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1121,7 +1121,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1146,7 +1146,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1172,7 +1172,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -1197,7 +1197,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1223,7 +1223,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1249,7 +1249,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                  "all": {
                     "method": "skip"
@@ -1274,7 +1274,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1299,7 +1299,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1353,7 +1353,7 @@
             "url-android": "https://play.google.com/store/apps/details?id=com.dropbox.android",
             "url-ios": "https://itunes.apple.com/us/app/dropbox/id327630330",
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1378,7 +1378,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1403,7 +1403,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1432,7 +1432,7 @@
             "url-android": "https://play.google.com/store/apps/details?id=org.mozilla.firefox",
             "url-ios": "https://itunes.apple.com/us/app/firefox-web-browser/id989804926",
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1457,7 +1457,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1482,7 +1482,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1507,7 +1507,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1532,7 +1532,7 @@
             "url-android": "https://play.google.com/store/apps/details?id=com.owncloud.android",
             "url-ios": "https://itunes.apple.com/gb/app/owncloud/id543672169",
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1558,7 +1558,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1583,7 +1583,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1609,7 +1609,7 @@
             "url-android": "https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid",
             "url-ios": null,
             "arch": "i386,amd64,armhf",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1634,7 +1634,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1659,7 +1659,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1684,7 +1684,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmaxppa",
@@ -1710,7 +1710,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1738,7 +1738,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmaxppa",
@@ -1767,7 +1767,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1792,7 +1792,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1817,7 +1817,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1842,7 +1842,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1867,7 +1867,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1892,7 +1892,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -1917,7 +1917,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1942,7 +1942,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1967,7 +1967,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -1995,7 +1995,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -2020,7 +2020,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2045,7 +2045,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2070,7 +2070,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2095,7 +2095,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2120,7 +2120,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2147,7 +2147,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -2172,7 +2172,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2197,7 +2197,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2222,7 +2222,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2271,7 +2271,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2300,7 +2300,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2327,7 +2327,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -2355,7 +2355,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2386,7 +2386,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2418,7 +2418,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -2444,7 +2444,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -2477,7 +2477,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -2511,7 +2511,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -2548,7 +2548,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2578,7 +2578,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2610,7 +2610,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2639,7 +2639,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2686,7 +2686,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -2718,7 +2718,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2745,7 +2745,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2770,7 +2770,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2795,7 +2795,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2821,7 +2821,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2854,7 +2854,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -2892,7 +2892,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2925,7 +2925,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2958,7 +2958,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -2983,7 +2983,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3009,7 +3009,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -3034,7 +3034,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -3059,7 +3059,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3085,7 +3085,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -3115,7 +3115,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64,arm64,armhf",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3138,7 +3138,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3164,7 +3164,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3192,7 +3192,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3215,7 +3215,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3238,7 +3238,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3261,7 +3261,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3287,7 +3287,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3315,7 +3315,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -3341,7 +3341,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3371,7 +3371,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3403,7 +3403,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3428,7 +3428,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64,armhf,arm64",
-            "releases": "xenial,artful,focal",
+            "releases": "xenial,artful,jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3460,7 +3460,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3487,7 +3487,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3510,7 +3510,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3533,7 +3533,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3556,7 +3556,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3579,7 +3579,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -3602,7 +3602,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skipmax"
@@ -3625,7 +3625,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3648,7 +3648,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
@@ -3671,7 +3671,7 @@
             "url-android": null,
             "url-ios": null,
             "arch": "i386,amd64",
-            "releases": "focal",
+            "releases": "jammy",
             "pre-install": {
                 "all": {
                     "method": "skip"
